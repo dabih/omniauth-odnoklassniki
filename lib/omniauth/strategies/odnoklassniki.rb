@@ -7,7 +7,7 @@ module OmniAuth
       option :name, 'odnoklassniki'
 
       option :client_options, {
-        :site => 'http://www.odnoklassniki.ru/',
+        :site => 'https://www.odnoklassniki.ru/',
         :token_url => 'https://api.odnoklassniki.ru/oauth/token.do',
         :authorize_url => '/oauth/authorize'
       }
